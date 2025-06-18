@@ -15,12 +15,6 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.hamburger-menu {
-    padding-right: 10px;
-}
-.down-arrow {
-    padding-left: 10px;
-}
 #banner {
     display: flex;
     justify-content: flex-start;
@@ -42,7 +36,7 @@ h1 {
     border: none;
     outline: 0px;
 }
-#all-categories, #support-container, #all-categories-support, #categories {
+#all-categories, #support-container, #all-categories-support {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,4 +53,11 @@ h1 {
 }
 #support-container p {
     margin: 10px;
+}
+#Home-img-container {
+    background-image: url('https://themewagon.github.io/ogani/img/breadcrumb.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3.8rem 4rem;
 }
