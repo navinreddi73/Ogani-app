@@ -1,5 +1,5 @@
 h1 {
-    color: blue;
+    color: rgb(252, 252, 252);
 }
 #all-departments {
     flex: 0.25;
@@ -56,8 +56,16 @@ h1 {
 }
 #Home-img-container {
     background-image: url('https://themewagon.github.io/ogani/img/breadcrumb.jpg');
-    background-size: cover;
-    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 45px 0 40px;
     background-repeat: no-repeat;
-    padding: 3.8rem 4rem;
+    background-size: cover;
+    background-position: top center;
+}
+#Home-img-container div{
+    text-align: center;
+}
+#Home-img-container h1{
+    font-size: 40px;
 }
