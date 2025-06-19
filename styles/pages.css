@@ -1,0 +1,73 @@
+h1 {
+    color: rgb(252, 252, 252);
+}
+#all-departments {
+    flex: 0.25;
+}
+#right-sub-banner {
+    flex: 0.75;
+}
+#all-departments h4 {
+    background-color: rgb(126, 173, 55);
+    color: white;
+    padding: 12px 14px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 30px;
+}
+#all-categories {
+    border: 1px solid rgb(235, 235, 235);
+    margin-bottom: 18px;
+}
+#all-categories button {
+    background-color: rgb(126, 173, 55);
+    color: white;
+    padding: 20px;
+    border: none;
+}
+#all-categories input {
+    padding: 21px;
+    border: none;
+    outline: 0px;
+}
+#all-categories, #support-container, #all-categories-support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+#support-container i {
+    background-color: rgb(245, 245, 245);
+    color: rgb(126, 173, 55);
+    padding: 20px;
+    border-radius: 50%;
+}
+#support-container h4 {
+    margin: 0px;
+}
+#support-container p {
+    margin: 10px;
+}
+#Home-img-container {
+    background-image: url('https://themewagon.github.io/ogani/img/breadcrumb.jpg');
+    align-items: center;
+    padding: 45px 0 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+#Home-img-container div{
+    text-align: center;
+}
+#Home-img-container h1{
+    font-size: 40px;
+}
+#Home-img-container-button a{
+    color: white;
+}
