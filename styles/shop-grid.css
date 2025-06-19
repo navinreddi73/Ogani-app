@@ -56,7 +56,6 @@ h1 {
 }
 #Home-img-container {
     background-image: url('https://themewagon.github.io/ogani/img/breadcrumb.jpg');
-    display: flex;
     align-items: center;
     padding: 45px 0 40px;
     background-repeat: no-repeat;
@@ -68,4 +67,7 @@ h1 {
 }
 #Home-img-container h1{
     font-size: 40px;
+}
+#Home-img-container-button a{
+    color: white;
 }
